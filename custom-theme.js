@@ -1,9 +1,9 @@
-export const theme = {
+const theme = {
     input: {
         styles: {
             base: {
                 input: {
-                    color: 'text-white'
+                    color: '!text-white'
                 },
                 label: {
                     color: '!text-white'
@@ -21,3 +21,5 @@ export const theme = {
         },
     },
 }
+
+export default theme

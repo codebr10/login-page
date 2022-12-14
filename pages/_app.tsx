@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from "@material-tailwind/react"
-import { theme } from '../custom-theme'
+import theme from '../custom-theme'
 import '../styles/globals.css'
 
 export default function App({ Component, pageProps }: AppProps) {
